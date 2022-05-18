@@ -180,7 +180,7 @@ import java.util.Scanner;
       return false;
   }
 
-  //14.Lowercase covert to UppercaseMethod 
+  //14.Lowercase covert to Uppercase
   public String toUppercase() {
     String str="";
     for(int i=0;i<this.strlen;i++) {
