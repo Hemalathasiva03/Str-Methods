@@ -24,6 +24,7 @@ System.out.println(obj.isEmpty());
 System.out.println(obj.toUppercase());
 System.out.println(obj.toLowercase());
 System.out.println(obj.toString());
+System.out.println(obj.ObjectToString());
 System.out.println(obj.replace('a','s'));
 
 }
