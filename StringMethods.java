@@ -71,7 +71,7 @@ import java.util.Scanner;
       return count;
    }
    
-  //5.String compareTo return true or false 
+  //5.String compareTo return 0(true)
   public int compareTo(String str2) {
     
     char[] str2_Array=str2.toCharArray();
@@ -89,7 +89,7 @@ import java.util.Scanner;
     return 0;
 }
 
-  //6.String compareToIgnorecase return true or false
+  //6.String compareToIgnorecase return 0(true)
   public int compareToIgnorecase(String str2) {
   
     char[] str2_Array=str2.toCharArray();
