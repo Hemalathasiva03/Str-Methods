@@ -223,7 +223,19 @@ import java.util.Scanner;
       return str;
   }
   
-  //17.String replace return change the char of the String
+  //17.Object To String
+
+  public String ObjectToString()
+
+  {
+
+      StringMain a = new StringMain();  
+
+  return ((a == null)? null : a.toString());
+
+}
+    
+  //18.String replace return change the char of the String
   public String replace(char original_char,char replace_char) {
     String str="";
     for (int i = 0; i < this.string.length(); i++){
