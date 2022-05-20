@@ -15,7 +15,7 @@ System.out.println(obj.CodePointCount(1, 4));
 System.out.println(obj.compareTo("hema latha")); 
 System.out.println(obj.compareToIgnorecase("HEMA LATHA")); 
 System.out.println(obj.concat("marimuthu")); 
-System.out.println(obj.contains("h"));
+System.out.println(obj.contains("latha"));
 System.out.println(obj.ContentEquals("hema latha"));
 System.out.println(obj.equals("hema latha"));
 System.out.println(obj.equalsIgnorecase("HEMA LATHA"));
