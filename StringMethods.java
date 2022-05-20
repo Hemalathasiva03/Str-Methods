@@ -115,10 +115,25 @@ import java.util.Scanner;
     return this.string+" "+str2;
   }
  
-  //8.String contain
-  public boolean contains(String str2) {
-    boolean str=this.string.matches("(.*)"+str2+"(.*)");
-    return str;
+  //8.String Contains
+  	public boolean contains(String str2) {
+  		char[] mArr = string.toCharArray();
+		char[] str2Array = str2.toCharArray();
+		if(!(mArr.length>=str2Array.length)) {
+			return false;
+		}
+		for (int i = 0; i < mArr.length; i++) {
+			if(mArr[i] == str2Array[0] && mArr.length - i >= str2Array.length) {
+				int mi = i;
+				int counter = 0;
+				for(char s : str2Array) {
+					if(mArr[mi] == s)  counter++;
+					mi++;
+				}
+				return counter == str2Array.length;
+			}
+		}
+		return false;
   }
  
   //9.String ContentEquals return true or false
